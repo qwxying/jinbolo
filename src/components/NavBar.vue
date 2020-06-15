@@ -37,7 +37,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
   }
 
   .logo {
@@ -48,19 +47,19 @@
   }
 
   ul {
-    /*border: 1px solid red;*/
     display: flex;
     margin-right: 96px;
     padding: 8px 12px;
+
     > li {
-      /*border: 1px solid blue;*/
       padding: 10px 15px;
       font-size: 14px;
+      border-radius: 12px;
     }
 
     > li:hover {
-      color: #3884c0;
-      border-bottom: 3px solid #05aec7;
+      color: #fff;
+      background-color: #05aec7;
     }
   }
 </style>

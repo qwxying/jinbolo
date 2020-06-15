@@ -59,7 +59,7 @@
   }
 
   section {
-    margin: 16px 96px;
+    margin: 96px 96px;
   }
 
   p {
