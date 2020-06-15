@@ -1,16 +1,20 @@
 <template>
-  <div class="home">
+  <div>
     <NavBar/>
-    <h1>官网首页</h1>
+    <h1>
+      企业资讯
+    </h1>
   </div>
 </template>
 
 <script>
-  // @ is an alias to /src
-
   import NavBar from "../components/NavBar"
   export default {
-    name: "Home",
+    name: "News",
     components: {NavBar}
   }
 </script>
+
+<style scoped lang="scss">
+
+</style>
