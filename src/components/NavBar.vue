@@ -1,28 +1,26 @@
 <template>
-  <div>
-    <div class="nav">
-      <div class="logo">
-        <img src="" alt="logo">
-      </div>
-      <ul>
-        <li>
-          <router-link to="/">首页</router-link>
-        </li>
-        <li>
-          <router-link to="/products">产品案例</router-link>
-        </li>
-        <li>
-          <router-link to="/news">企业资讯</router-link>
-        </li>
-        <li>
-          <router-link to="/contact_us">联系我们</router-link>
-        </li>
-        <li>
-          <router-link to="/join_us">加入我们</router-link>
-        </li>
-      </ul>
+  <div class="nav">
+    <div class="logo">
+      <img src="../assets/img/logo.png" alt="logo">
+      <span class="name">金菠萝科技</span>
     </div>
-
+    <ul>
+      <li>
+        <router-link to="/">首页</router-link>
+      </li>
+      <li>
+        <router-link to="/products">产品案例</router-link>
+      </li>
+      <li>
+        <router-link to="/news">企业资讯</router-link>
+      </li>
+      <li>
+        <router-link to="/contact_us">联系我们</router-link>
+      </li>
+      <li>
+        <router-link to="/join_us">加入我们</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -40,10 +38,21 @@
   }
 
   .logo {
-    height: 48px;
-    width: 144px;
-    border: 1px solid red;
+    height: 72px;
+    /*width: 96px;*/
     margin-left: 96px;
+    display: flex;
+    align-items: center;
+
+    > img {
+      width: 144px;
+    }
+
+    > .name {
+      padding: 8px;
+      margin-left: 8px;
+      font-size: 24px;
+    }
   }
 
   ul {
